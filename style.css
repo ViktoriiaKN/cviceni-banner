@@ -24,6 +24,13 @@ body {
 .banner {
   background-color: #e74c3c;
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    display: none;
+  }
+}
+
 .obdelnik {
   background-color: #2ecc71;
 }
